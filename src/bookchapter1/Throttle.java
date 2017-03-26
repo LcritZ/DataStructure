@@ -1,9 +1,5 @@
 package bookchapter1;
 
-import java.awt.datatransfer.StringSelection;
-
-import javafx.geometry.Pos;
-
 
 public class Throttle{
 	private int top;

@@ -25,7 +25,7 @@ public class charStack {
 		char temp;
 		if (top == -1) {
 			System.out.println("栈为空");
-			return (Character) null;
+			return ' ';
 		} else {
 			temp = stack[top];
 			top=top-1;
@@ -134,10 +134,10 @@ public class charStack {
 		ArrayStack temp=new ArrayStack(top);
 		for (int i = 0; i <= top; i++) {
 			if (stack[i]>='0'&&stack[i]<='9') {
-				temp.push((int)(stack[i]-48));
+				temp.push(stack[i]-48);
 				//System.out.println(temp.stack[0]);
 			}else if(stack[i]=='+'){
-				int c=  (int)((temp.pop()+temp.pop()));
+				int c=  ((temp.pop()+temp.pop()));
 				System.out.println(c);
 				temp.push(c);
 			}else if (stack[i]=='-') {

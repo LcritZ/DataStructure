@@ -2,8 +2,6 @@ package bookchapter3;
 
 import java.util.Scanner;
 
-import javax.management.relation.Role;
-
 
 public class TicTacToeGame {
 		static int[] chessboard = new int[9];	 

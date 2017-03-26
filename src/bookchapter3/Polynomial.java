@@ -1,7 +1,5 @@
 package bookchapter3;
 
-import javax.management.RuntimeErrorException;
-
 public class Polynomial implements Cloneable{
 	private double[] coe;
 	private int degree;
@@ -10,7 +8,7 @@ public class Polynomial implements Cloneable{
 		coe = new double[d+1];
 	}
 	public Polynomial(double d0) {
-		// TODO ×Ô¶¯Éú³ÉµÄ¹¹Ôìº¯Êý´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ¹ï¿½ï¿½ìº¯ï¿½ï¿½ï¿½ï¿½ï¿½
 		degree = 0;
 		coe = new double[]{d0};
 	}
@@ -42,6 +40,7 @@ public class Polynomial implements Cloneable{
 		}
 		return res;
 	}
+	@Override
 	public Polynomial clone() {
 		Polynomial polynomial;
 		try {

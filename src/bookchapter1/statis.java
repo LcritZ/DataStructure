@@ -2,8 +2,6 @@ package bookchapter1;
 
 import java.util.ArrayList;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 public class statis {
 	private int sum;
 	private int length ;	
@@ -86,10 +84,10 @@ public class statis {
 			System.out.println(s.array.get(i));			
 		}	
 		System.out.println();
-		System.out.println("³¤¶È"+s.getLength());
-		System.out.println("×î´óÖµ"+s.getMaxnumber());
-		System.out.println("×îÐ¡Öµ"+s.getMinnumber());
-		System.out.println("ºÍ"+s.getsum());
+		System.out.println("ï¿½ï¿½ï¿½ï¿½"+s.getLength());
+		System.out.println("ï¿½ï¿½ï¿½Öµ"+s.getMaxnumber());
+		System.out.println("ï¿½ï¿½Ð¡Öµ"+s.getMinnumber());
+		System.out.println("ï¿½ï¿½"+s.getsum());
 		//s.addstatis(s2);
 		for (int i = 0; i < s.addstatis(s2).array.size(); i++) {
 			System.out.println(s.addstatis(s2).array.get(i));			
