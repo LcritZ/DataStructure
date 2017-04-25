@@ -50,6 +50,7 @@ public class BinaryTreeArray {
 	}
 	public static void main(String[] args) {
 			BinaryTreeArray bta=new BinaryTreeArray(3);
+			
 			bta.add(3);
 			bta.add(3);
 			bta.add(3);

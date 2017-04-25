@@ -25,6 +25,7 @@ public class Patron {
 		// TODO Auto-generated constructor stub
 	}
 	
+	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub
 		return this.name.equals(((Patron)obj).name);

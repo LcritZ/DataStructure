@@ -27,7 +27,7 @@ public class PatronList extends LinkedList{
 	public void display() {
 		Iterator<Patron> ite = iterator();
 		while(ite.hasNext()){
-			((Patron) ite.next()).display();
+			ite.next().display();
 		}
 	}
 }

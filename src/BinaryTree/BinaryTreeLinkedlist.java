@@ -7,11 +7,11 @@ public class BinaryTreeLinkedlist {
 		public BinaryTreeNode right;
 		
 		public BinaryTreeLinkedlist(int e) {
-			root=new BinaryTreeNode(e, null, null, null);
+			root=new BinaryTreeNode(e);
 		}
 		
-	public static void main(String[] args) {
-		
+public static void main(String[] args) {
+		System.out.println("?");
 	}
 
 }

@@ -7,8 +7,6 @@
  */
 package librarymanage;
 
-import javax.lang.model.element.Element;
-
 //import netease.Author;
 
 /**
@@ -29,6 +27,7 @@ public class Author {
 		/* (non-Javadoc)
 		* @see java.lang.Object#equals(java.lang.Object)
 		*/
+		@Override
 		public boolean equals(Object obj) {
 			return this.name.equals(((Author) obj).name);
 		}
