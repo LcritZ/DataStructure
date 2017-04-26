@@ -41,7 +41,7 @@ public class BinarySearchTree {
 		return null;
 	}
 	
-	public void breadthFirst(BinaryTreeNode root) {
+	public void breadthFirst(BinaryTreeNode root) {   //广度优先遍历二插搜索树
 		BinaryTreeNode p=root;
 		Queue q = new Queue();
 		if (p!=null) {
@@ -60,7 +60,7 @@ public class BinarySearchTree {
 		System.out.println();
 	}
 	
-	public void printTreeByPreOrder(BinaryTreeNode root) {
+	public void printTreeByPreOrder(BinaryTreeNode root) {   //先序遍历
 		if (root!=null) {
 			printNode(root);
 			printTreeByPreOrder(root.leftChild);
@@ -69,7 +69,7 @@ public class BinarySearchTree {
 		}
 		
 	}
-	public void printTreeByInOrder(BinaryTreeNode root) {
+	public void printTreeByInOrder(BinaryTreeNode root) {   //中序遍历
 		if (root!=null) {
 			printTreeByInOrder(root.leftChild);
 			printNode(root);
@@ -77,7 +77,7 @@ public class BinarySearchTree {
 		}
 		
 	}
-	public void iterativePreorder(BinaryTreeNode root) {
+	public void iterativePreorder(BinaryTreeNode root) {     //非迭代遍历数
 		BinaryTreeNode p = root;
 		Stack travStack = new Stack<>();
 		if (p!=null) {
@@ -96,7 +96,7 @@ public class BinarySearchTree {
 		System.out.println();
 	}
 	
-	public void morrisInorder(BinaryTreeNode root){
+	public void morrisInorder(BinaryTreeNode root){     //莫里斯遍历树
 		System.out.println();
 		System.out.println();
 		BinaryTreeNode p = root,temp;
